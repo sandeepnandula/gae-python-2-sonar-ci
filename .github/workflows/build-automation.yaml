@@ -37,5 +37,5 @@ jobs:
 
     - name: run python test cases
       run: |
-        coverage server-tests/runner.py /usr/lib/google-cloud-sdk
+        coverage run server-tests/runner.py /usr/lib/google-cloud-sdk
         coverage xml
