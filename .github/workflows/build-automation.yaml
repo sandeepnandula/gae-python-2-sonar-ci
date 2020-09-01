@@ -38,4 +38,5 @@ jobs:
     - name: run python test cases
       run: |
         coverage run server-tests/runner.py /usr/lib/google-cloud-sdk
+        coverage report
         coverage xml
